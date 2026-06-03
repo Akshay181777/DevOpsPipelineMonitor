@@ -1,0 +1,26 @@
+﻿[
+	{
+		"PipelineName": "Employee API CI/CD",
+		"Tool": "Jenkins",
+		"Status": "Success",
+		"LastRun": "2026-06-03 10:15 PM",
+		"Duration": "2 min 35 sec",
+		"Logs": "Build completed successfully. Tests passed. Deployment finished."
+	},
+	{
+		"PipelineName": "Frontend Web App Build",
+		"Tool": "GitHub Actions",
+		"Status": "Running",
+		"LastRun": "2026-06-03 10:20 PM",
+		"Duration": "Running",
+		"Logs": "Installing dependencies. Running build workflow."
+	},
+	{
+		"PipelineName": "Database Migration Pipeline",
+		"Tool": "Jenkins",
+		"Status": "Failed",
+		"LastRun": "2026-06-03 09:45 PM",
+		"Duration": "1 min 12 sec",
+		"Logs": "Migration failed due to SQL connection timeout."
+	}
+]
